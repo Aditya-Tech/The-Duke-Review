@@ -1,0 +1,159 @@
+/* ap376 */
+
+/* CSS by tag name */
+html {
+  padding: 0;
+  margin: 0 5% 0 5%;
+}
+
+h2 {
+  text-align: center;
+}
+/* CSS by div label */
+
+
+#latest-articles-section h3 {
+  text-decoration: underline;
+}
+
+#nav-bar {
+  margin: 0 0 5% 0;
+  padding: 5px 0 5px 0;
+  border-top: 5px solid #021C55;
+  border-bottom: 5px solid #021C55;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.new-article-title {
+  padding: 0;
+  margin: 0;
+}
+
+#latest-articles-section .row img {
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+.sub-feature {
+  padding-bottom: 5%;
+}
+
+
+#features-section {
+  margin-bottom: 5%;
+}
+
+.sub-features-section {
+  margin-top: 5%;
+}
+
+#coin-of-the-week {
+  text-align: center;
+}
+
+#of-the-week-section {
+  margin-top: 5%;
+  padding-left: 0;
+}
+
+.sample-img {
+  float: left;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 991px) {
+  html {
+    border: 3px solid #021C55;
+    border-radius: 5px;
+  }
+
+  #featured-article-section p {
+    display: none;
+    visibility: hidden;
+  }
+  .article-title {
+    height: 10px;
+  }
+
+  #featured-article-section {
+    text-align: center;
+  }
+
+  #latest-articles-section {
+    margin-left: 15%;
+  }
+
+  #latest-articles-section {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #latest-articles-section {
+    border: 2px solid #021C55;
+    border-radius: 10px;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .article-title {
+    float:left;
+    height: 85%;
+  }
+
+  #featured-article-section .sample-img {
+    width: 70%;
+    float: left;
+  }
+
+  #latest-articles-section {
+    border: 2px solid #021C55;
+    border-radius: 10px;
+    padding-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #coin-of-the-week-revealed {
+    width: 15%;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    border: 5px solid #021C55;
+    border-radius: 10px;
+  }
+
+  #coin-of-the-week {
+    border-left: 2px solid #021C55;
+    border-top: 2px solid #021C55;
+    border-right: 2px solid #021C55;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 0;
+  }
+
+  #coin-name {
+    padding-left: 2px;
+  }
+
+  #coin-of-the-week-header {
+    padding-right: 5px;
+    width: auto;
+  }
+
+  #coin-of-the-week-revealed {
+    width: 15%;
+    padding: 0;
+  }
+}

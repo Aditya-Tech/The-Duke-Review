@@ -1,0 +1,26 @@
+Your name and Net ID:
+- Aditya Paruchuri
+- ap376
+
+The date you started the assignment, the date you completed the assignment, and an estimate of the number of hours you worked on it:
+- Started: 02/01/2018
+- Ended: 02/05/2018
+- Total amount of hours worked: 10-12 hours
+
+List of the students with whom you discussed the assignment. Since assignments are to be your own work, you should keep track of anyone with whom you have had a significant conversation about a program. You are welcome to talk with the course staff about the assignment, and to other students about broad ideas and concepts:
+- Jack Dolinar, discussed assignment instructions
+
+Any books, papers, or online resources that you consulted in developing your web site:
+- https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+- Bootstrap documentation (both v. 3 and v. 4)
+- Also received some UI inspiration from http://www.dartreview.com/ (no code was used from the site, however)
+
+Any assets (code, images, or sounds) used within your web site:
+- All images are open source (made sure they are open for reuse on Google)
+
+Any bugs or concerns still remaining within your web site:
+- Sometimes the text in the bulleted lists in the sub-features section can flow outside of the border
+
+Any extra credit features included in your web site:
+- Included a 3-way re-sizeable navbar without using Bootstrap's JavaScript conversation
+- Had three different styles of sections (featured article, latest articles, and sub-features), all of which are responsive
