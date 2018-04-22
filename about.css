@@ -1,0 +1,27 @@
+.container {
+	margin-top:50px;
+}
+
+
+h1 {
+	font-size: 5em;
+	margin-top:100px;
+}
+
+
+img {
+	height:270px;
+}
+
+.row {
+	margin-top:30px;
+}
+
+.profile_pic {
+	text-align: center;
+}
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+
+}
